@@ -1,0 +1,19 @@
+{
+  "name": "request-trigger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brab0/request-trigger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brab0/request-trigger/issues"
+  },
+  "homepage": "https://github.com/brab0/request-trigger#readme"
+}

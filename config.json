@@ -1,0 +1,7 @@
+{
+	"src" : "calls.json",
+	"endpoint" : "http://192.168.63.87:8000/api",
+	"timeout" : 1000,
+	"random" : false,
+	"repeat" : -1
+}
