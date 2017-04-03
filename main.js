@@ -1,10 +1,20 @@
 const config = require('./config.json');
 
+var count = 0;
+
 const startRepeat = count => {
 	setTimeout(() => {
-		console.log(count)
-		startRepeat(++count)
+
+		if(count <= config.loopCount){
+			count++;
+			startRepeat(count);
+		} else{
+			console.log(count);
+		}
+
 	}, config.timeout);
 };
 
-startRepeat(0);
+console.log(`fazendo requisições para o endpoint ${config.endpoint}`);
+
+startRepeat(count);

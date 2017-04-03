@@ -1,7 +1,68 @@
 {
-	"src" : "calls.json",
 	"endpoint" : "http://192.168.63.87:8000/api",
-	"timeout" : 1000,
-	"random" : false,
-	"repeat" : -1
+	"timeout" : 250,
+	"random" : true,
+	"loopCount" : 10,
+	"data_structure" : {
+		"id": {
+			"type": "hexa",
+			"size": 32
+		},
+		"dh_agora": {
+			"type": "datetime"
+		},
+		"dh_agora_utc": {
+			"type": "datetime"
+		},
+		"dh_ligacao": {
+			"type": "datetime"
+		},
+		"dh_ligacao_utc": {
+			"type": "datetime"
+		},
+		"origem": {
+			"data": [
+				"xxxxxxxxxx"
+			]
+		},
+		"numero_rastreado": {
+			"data": [
+				"xxxxxxxxxx"
+			]
+		},
+		"cnl_prefixo": {
+			"ref": "origem",
+			"range" : {
+				"start": 0,
+				"end":5
+			}
+		},
+		"cnl_mcdu": {
+			"ref": "origem",
+			"range" : {
+				"start": 6,
+				"end":9
+			}
+		},
+		"duracao": {
+			"type": "number",
+			"size": 3
+		},
+		"faturado": {
+			"type": "number",
+			"size": 3
+		},
+		"status": {
+			"data" : ["xx"]
+		},
+		"nome_audio": {
+			"data" : ["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
+		},
+		"arq_audio": {
+			"data" : ["xxxxxxxxxxxxxxxxxxxxxxxxx"]
+		},
+		"token": {
+			"data" : ["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
+		}
+	}
 }
