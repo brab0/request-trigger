@@ -9,7 +9,7 @@ const startRepeat = count => {
 			count++;
 			startRepeat(count);
 		} else{
-			console.log(count);
+			console.log(`${count} requisições realizadas com sucesso!`);
 		}
 
 	}, config.timeout);

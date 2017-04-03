@@ -1,8 +1,8 @@
 {
 	"endpoint" : "http://192.168.63.87:8000/api",
 	"timeout" : 250,
-	"random" : true,
-	"loopCount" : 10,
+	"random" : false,
+	"loopCount" : 1,
 	"data_structure" : {
 		"id": {
 			"type": "hexa",
@@ -22,12 +22,26 @@
 		},
 		"origem": {
 			"data": [
-				"xxxxxxxxxx"
+				"1136164380",
+				"6536161172",
+				"6536166483",
+				"9136169472",
+				"4836160183",
+				"1136167749",
+				"2136169183",
+				"6536162221",
+				"9136160814",
+				"6536160011",
+				"6536162391",
+				"1136169188",
+				"6536164212"
 			]
 		},
 		"numero_rastreado": {
 			"data": [
-				"xxxxxxxxxx"
+				"6536163211",
+				"6536165521",
+				"6536169382"
 			]
 		},
 		"cnl_prefixo": {
@@ -53,13 +67,13 @@
 			"size": 3
 		},
 		"status": {
-			"data" : ["xx"]
+			"data" : ["AT"]
 		},
 		"nome_audio": {
-			"data" : ["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
+			"data" : ["2017-04-03/5000/20170403-141551-06536165080-5000.wav"]
 		},
 		"arq_audio": {
-			"data" : ["xxxxxxxxxxxxxxxxxxxxxxxxx"]
+			"data" : [" --- Arquivo de audio BASE64 --- "]
 		},
 		"token": {
 			"data" : ["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
