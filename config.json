@@ -1,6 +1,15 @@
 {
-	"endpoint" : "http://192.168.63.87:8000/api",
+	"target" : {
+		"hostname": "192.168.63.87",
+		"port": 8000,
+		"path": "/api/central",
+		"method": "POST",
+		"headers": {
+			"Content-Type": "application/x-www-form-urlencoded",
+			"authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZXN0IjoiY29udGVudCIsInN1YiI6MzAsImlzcyI6Imh0dHA6XC9cLzE5Mi4xNjguNjMuODc6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTQ5MTI0NTMzNiwiZXhwIjoxNDkxNjA1MzM2LCJuYmYiOjE0OTEyNDUzMzYsImp0aSI6IjUyNWY1NzZhNGExMWY1ZDkzY2YxMmM5ZTAyZDI5ZGZkIn0.WoiEYVoqS9f62nuM9hXtFuY1x-C7cBEN204_el_Famg"
+		}
+	},
 	"timeout" : 250,
 	"random" : false,
-	"loopCount" : 8
+	"loopCount" : 6
 }
