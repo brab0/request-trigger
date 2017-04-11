@@ -1,15 +1,15 @@
 {
 	"target" : {
-		"hostname": "192.168.63.87",
+		"hostname": "127.0.0.1",
 		"port": 8000,
-		"path": "/api/central",
+		"path": "/api/ligacao",
 		"method": "POST",
 		"headers": {
-			"Content-Type": "application/x-www-form-urlencoded",
-			"authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZXN0IjoiY29udGVudCIsInN1YiI6MzAsImlzcyI6Imh0dHA6XC9cLzE5Mi4xNjguNjMuODc6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTQ5MTI0NTMzNiwiZXhwIjoxNDkxNjA1MzM2LCJuYmYiOjE0OTEyNDUzMzYsImp0aSI6IjUyNWY1NzZhNGExMWY1ZDkzY2YxMmM5ZTAyZDI5ZGZkIn0.WoiEYVoqS9f62nuM9hXtFuY1x-C7cBEN204_el_Famg"
+			"Content-Type": "application/json",
+			"authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZXN0IjoiY29udGVudCIsInN1YiI6MjQsImlzcyI6Imh0dHA6XC9cLzEyNy4wLjAuMTo4MDAwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNDkxMjUxNzM0LCJleHAiOjE0OTE2MTE3MzQsIm5iZiI6MTQ5MTI1MTczNCwianRpIjoiM2U2MGExYmZlYjdkZDEzZWI2ZWM0MmI1ZjVhYmYwMTUifQ.FHIWgrXxVMgE__O0UTJV6k-IQ4-j7_4D_oHS5tz-qkA"
 		}
 	},
-	"timeout" : 250,
+	"timeout" : 0,
 	"random" : false,
-	"loopCount" : 6
+	"loopCount" : 1
 }
