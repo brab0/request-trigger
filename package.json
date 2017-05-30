@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm update",
     "start": "node main.js"
   },
   "repository": {
