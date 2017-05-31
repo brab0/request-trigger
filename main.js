@@ -18,7 +18,7 @@ const startRepeat = count => {
 				console.log(`${count} requisições realizadas!`);
 			}
 		});
-	}, config.timeout);
+	}, config.delay);
 };
 
 console.log(`...disparando ${config.loopCount} ${config.target.method}s para: ${config.target.hostname}:${config.target.port}${config.target.path}`);
