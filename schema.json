@@ -16,28 +16,16 @@
 		"type": "datetime"
 	},
 	"origem": {
-		"data": [
-			"1136164380",
-			"6536161172",
-			"6536166483",
-			"9136169472"
-		]
+		"data": ["9136169472"]
 	},
 	"numero_rastreado": {
-		"data": [
-			"6536163211",
-			"6536165521"
-		]
+		"data": ["48985045874"]
 	},
 	"cnl_prefixo": {
-		"data":[
-			"683235"
-		]
+		"data":["913616"]
 	},
 	"cnl_mcdu": {
-		"data":[
-			"1001"
-		]
+		"data":["9472"]
 	},
 	"duracao": {
 		"type": "number",
@@ -48,15 +36,6 @@
 		"size": 3
 	},
 	"status": {
-		"data" : ["AT"]
-	},
-	"nome_audio": {
-		"data" : ["2017-04-03/5000/20170403-141551-06536165080-5000.wav"]
-	},
-	"arq_audio": {
-		"data" : [" --- Arquivo de audio BASE64 --- "]
-	},
-	"token": {
-		"data" : ["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"]
+		"data" : ["NA"]
 	}
 }

@@ -7,9 +7,9 @@ module.exports.fire = (postData, options, cb) => {
 
         res.on('data', (e) => {
             console.log(e.toString())
-        })
+        });
    });
-   
+
    req.on('error', (e) => {
       console.log(e);
       console.log(`problem with request: ${e.message}`);
@@ -17,6 +17,6 @@ module.exports.fire = (postData, options, cb) => {
 
    req.write(JSON.stringify(postData));
    req.end();
-   cb();
 
+   cb();
 }

@@ -7,8 +7,8 @@ var count = 0;
 
 const startRepeat = count => {
 	setTimeout(() => {
-
 		const obj = new DataStructure(schema, count);
+
 		count++;
 
 		Shooter.fire(obj.get(), config.target, () => {
